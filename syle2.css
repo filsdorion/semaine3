@@ -1,0 +1,64 @@
+/*elements principaux de la page */
+
+body
+{
+	background:url(images/tn_ced.jpg) no-repeat top right, url(images/macaron2.jpg) no-repeat fixed;
+
+	/*font-family: Arial, sans-serif;
+	color: #181818;
+*/	}
+
+
+#bloc_page
+{
+	width: auto;
+	min-width: 500px;
+	margin: auto;
+	}
+	          
+/*header*/
+#intro
+{
+	text-align: center;
+	text-shadow: 2px 4px 4px blue;
+	padding-bottom: 10px;
+}
+
+
+/*sections*/
+
+#experience, #competence, #formation
+{
+	display: inline-block;
+	vertical-align: top;
+	
+}
+#experience
+{
+		width: 35%;
+
+}
+#competence
+{
+		width: 30%;
+
+}
+#formation
+{
+		width: 30%;
+			
+			}
+
+/*balises titres*/
+h1
+{
+	text-align: center;
+	
+}
+
+h3
+{
+	color: blue;
+	text-align: center;
+	
+}
